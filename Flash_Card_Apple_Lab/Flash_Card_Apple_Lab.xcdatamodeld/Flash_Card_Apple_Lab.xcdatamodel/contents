@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Cards" representedClassName="Cards" syncable="YES">
+        <attribute name="answer" optional="YES" attributeType="String"/>
+        <attribute name="question" optional="YES" attributeType="String"/>
         <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="cardDeck" maxCount="1" deletionRule="Cascade" destinationEntity="Deck" inverseName="deckCards" inverseEntity="Deck"/>
+    </entity>
+    <entity name="Deck" representedClassName="Deck" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="deckCards" toMany="YES" deletionRule="Cascade" destinationEntity="Cards" inverseName="cardDeck" inverseEntity="Cards"/>
     </entity>
     <elements>
-        <element name="Item" positionX="-63" positionY="-18" width="128" height="44"/>
+        <element name="Cards" positionX="-87.1998291015625" positionY="-164.7424621582031" width="128" height="89"/>
+        <element name="Deck" positionX="-546.1295166015625" positionY="-176.3427124023438" width="128" height="58"/>
     </elements>
 </model>

@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD0A21C3261473A8000F5061 /* CreateCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A21C2261473A8000F5061 /* CreateCardView.swift */; };
 		BD2A9D9425AEEAEC002D00D6 /* Flash_Card_Apple_LabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A9D9325AEEAEC002D00D6 /* Flash_Card_Apple_LabApp.swift */; };
 		BD2A9D9625AEEAEC002D00D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A9D9525AEEAEC002D00D6 /* ContentView.swift */; };
 		BD2A9D9825AEEAED002D00D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2A9D9725AEEAED002D00D6 /* Assets.xcassets */; };
 		BD2A9D9B25AEEAED002D00D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2A9D9A25AEEAED002D00D6 /* Preview Assets.xcassets */; };
 		BD2A9D9D25AEEAED002D00D6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A9D9C25AEEAED002D00D6 /* Persistence.swift */; };
 		BD2A9DA025AEEAED002D00D6 /* Flash_Card_Apple_Lab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD2A9D9E25AEEAED002D00D6 /* Flash_Card_Apple_Lab.xcdatamodeld */; };
+		BD2A9DA925AEEB8C002D00D6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A9DA825AEEB8C002D00D6 /* CardView.swift */; };
+		BD43A7BF2636F50400C0DAB3 /* DeckViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43A7BE2636F50400C0DAB3 /* DeckViewModel.swift */; };
+		BD70378B2638B9F5008E4E1F /* EditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD70378A2638B9F5008E4E1F /* EditCardView.swift */; };
+		BD70378E2638E052008E4E1F /* ListDeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD70378D2638E052008E4E1F /* ListDeckView.swift */; };
+		BD89FFFC2636F25D000C3E5B /* CreateDeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD89FFFB2636F25D000C3E5B /* CreateDeckView.swift */; };
+		BDFBAC072638182700A6C8D2 /* FormCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBAC062638182700A6C8D2 /* FormCardView.swift */; };
+		BDFBAC0A263818EB00A6C8D2 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBAC09263818EB00A6C8D2 /* CardViewModel.swift */; };
+		BDFBAC0D2638277200A6C8D2 /* ListCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBAC0C2638277200A6C8D2 /* ListCardsView.swift */; };
+		BDFBAC1426384AA700A6C8D2 /* Cards+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBAC1026384AA700A6C8D2 /* Cards+CoreDataClass.swift */; };
+		BDFBAC1526384AA700A6C8D2 /* Cards+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBAC1126384AA700A6C8D2 /* Cards+CoreDataProperties.swift */; };
+		BDFBAC1626384AA700A6C8D2 /* Deck+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBAC1226384AA700A6C8D2 /* Deck+CoreDataClass.swift */; };
+		BDFBAC1726384AA700A6C8D2 /* Deck+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBAC1326384AA700A6C8D2 /* Deck+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD0A21C2261473A8000F5061 /* CreateCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCardView.swift; sourceTree = "<group>"; };
 		BD2A9D9025AEEAEC002D00D6 /* Flash_Card_Apple_Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flash_Card_Apple_Lab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2A9D9325AEEAEC002D00D6 /* Flash_Card_Apple_LabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flash_Card_Apple_LabApp.swift; sourceTree = "<group>"; };
 		BD2A9D9525AEEAEC002D00D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +38,18 @@
 		BD2A9D9C25AEEAED002D00D6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		BD2A9D9F25AEEAED002D00D6 /* Flash_Card_Apple_Lab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flash_Card_Apple_Lab.xcdatamodel; sourceTree = "<group>"; };
 		BD2A9DA125AEEAED002D00D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD2A9DA825AEEB8C002D00D6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		BD43A7BE2636F50400C0DAB3 /* DeckViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckViewModel.swift; sourceTree = "<group>"; };
+		BD70378A2638B9F5008E4E1F /* EditCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCardView.swift; sourceTree = "<group>"; };
+		BD70378D2638E052008E4E1F /* ListDeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDeckView.swift; sourceTree = "<group>"; };
+		BD89FFFB2636F25D000C3E5B /* CreateDeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDeckView.swift; sourceTree = "<group>"; };
+		BDFBAC062638182700A6C8D2 /* FormCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormCardView.swift; sourceTree = "<group>"; };
+		BDFBAC09263818EB00A6C8D2 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		BDFBAC0C2638277200A6C8D2 /* ListCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCardsView.swift; sourceTree = "<group>"; };
+		BDFBAC1026384AA700A6C8D2 /* Cards+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cards+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BDFBAC1126384AA700A6C8D2 /* Cards+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cards+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BDFBAC1226384AA700A6C8D2 /* Deck+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Deck+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BDFBAC1326384AA700A6C8D2 /* Deck+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Deck+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +66,10 @@
 		BD2A9D8725AEEAEC002D00D6 = {
 			isa = PBXGroup;
 			children = (
+				BDFBAC1026384AA700A6C8D2 /* Cards+CoreDataClass.swift */,
+				BDFBAC1126384AA700A6C8D2 /* Cards+CoreDataProperties.swift */,
+				BDFBAC1226384AA700A6C8D2 /* Deck+CoreDataClass.swift */,
+				BDFBAC1326384AA700A6C8D2 /* Deck+CoreDataProperties.swift */,
 				BD2A9D9225AEEAEC002D00D6 /* Flash_Card_Apple_Lab */,
 				BD2A9D9125AEEAEC002D00D6 /* Products */,
 			);
@@ -56,8 +86,9 @@
 		BD2A9D9225AEEAEC002D00D6 /* Flash_Card_Apple_Lab */ = {
 			isa = PBXGroup;
 			children = (
+				BD43A7BD2636F4E800C0DAB3 /* ViewModels */,
+				BD43A7BC2636F4CD00C0DAB3 /* Views */,
 				BD2A9D9325AEEAEC002D00D6 /* Flash_Card_Apple_LabApp.swift */,
-				BD2A9D9525AEEAEC002D00D6 /* ContentView.swift */,
 				BD2A9D9725AEEAED002D00D6 /* Assets.xcassets */,
 				BD2A9D9C25AEEAED002D00D6 /* Persistence.swift */,
 				BD2A9DA125AEEAED002D00D6 /* Info.plist */,
@@ -73,6 +104,30 @@
 				BD2A9D9A25AEEAED002D00D6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD43A7BC2636F4CD00C0DAB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD2A9DA825AEEB8C002D00D6 /* CardView.swift */,
+				BD0A21C2261473A8000F5061 /* CreateCardView.swift */,
+				BD89FFFB2636F25D000C3E5B /* CreateDeckView.swift */,
+				BD2A9D9525AEEAEC002D00D6 /* ContentView.swift */,
+				BDFBAC062638182700A6C8D2 /* FormCardView.swift */,
+				BDFBAC0C2638277200A6C8D2 /* ListCardsView.swift */,
+				BD70378A2638B9F5008E4E1F /* EditCardView.swift */,
+				BD70378D2638E052008E4E1F /* ListDeckView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BD43A7BD2636F4E800C0DAB3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BD43A7BE2636F50400C0DAB3 /* DeckViewModel.swift */,
+				BDFBAC09263818EB00A6C8D2 /* CardViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,10 +199,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD89FFFC2636F25D000C3E5B /* CreateDeckView.swift in Sources */,
+				BDFBAC1626384AA700A6C8D2 /* Deck+CoreDataClass.swift in Sources */,
+				BD43A7BF2636F50400C0DAB3 /* DeckViewModel.swift in Sources */,
+				BDFBAC0D2638277200A6C8D2 /* ListCardsView.swift in Sources */,
+				BDFBAC1526384AA700A6C8D2 /* Cards+CoreDataProperties.swift in Sources */,
 				BD2A9D9D25AEEAED002D00D6 /* Persistence.swift in Sources */,
 				BD2A9DA025AEEAED002D00D6 /* Flash_Card_Apple_Lab.xcdatamodeld in Sources */,
+				BD0A21C3261473A8000F5061 /* CreateCardView.swift in Sources */,
+				BD70378B2638B9F5008E4E1F /* EditCardView.swift in Sources */,
 				BD2A9D9625AEEAEC002D00D6 /* ContentView.swift in Sources */,
+				BDFBAC072638182700A6C8D2 /* FormCardView.swift in Sources */,
+				BD70378E2638E052008E4E1F /* ListDeckView.swift in Sources */,
+				BDFBAC1726384AA700A6C8D2 /* Deck+CoreDataProperties.swift in Sources */,
 				BD2A9D9425AEEAEC002D00D6 /* Flash_Card_Apple_LabApp.swift in Sources */,
+				BDFBAC1426384AA700A6C8D2 /* Cards+CoreDataClass.swift in Sources */,
+				BD2A9DA925AEEB8C002D00D6 /* CardView.swift in Sources */,
+				BDFBAC0A263818EB00A6C8D2 /* CardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

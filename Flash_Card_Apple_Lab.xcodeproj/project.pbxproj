@@ -13,7 +13,6 @@
 		BD2A9D9B25AEEAED002D00D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2A9D9A25AEEAED002D00D6 /* Preview Assets.xcassets */; };
 		BD2A9D9D25AEEAED002D00D6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A9D9C25AEEAED002D00D6 /* Persistence.swift */; };
 		BD2A9DA025AEEAED002D00D6 /* Flash_Card_Apple_Lab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD2A9D9E25AEEAED002D00D6 /* Flash_Card_Apple_Lab.xcdatamodeld */; };
-		BD90BDA52639565700860C11 /* chuideg.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90BDA42639565700860C11 /* chuideg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		BD2A9D9C25AEEAED002D00D6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		BD2A9D9F25AEEAED002D00D6 /* Flash_Card_Apple_Lab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flash_Card_Apple_Lab.xcdatamodel; sourceTree = "<group>"; };
 		BD2A9DA125AEEAED002D00D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD90BDA42639565700860C11 /* chuideg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chuideg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 				BD2A9DA125AEEAED002D00D6 /* Info.plist */,
 				BD2A9D9E25AEEAED002D00D6 /* Flash_Card_Apple_Lab.xcdatamodeld */,
 				BD2A9D9925AEEAED002D00D6 /* Preview Content */,
-				BD90BDA42639565700860C11 /* chuideg.swift */,
 			);
 			path = Flash_Card_Apple_Lab;
 			sourceTree = "<group>";
@@ -150,7 +147,6 @@
 				BD2A9D9D25AEEAED002D00D6 /* Persistence.swift in Sources */,
 				BD2A9DA025AEEAED002D00D6 /* Flash_Card_Apple_Lab.xcdatamodeld in Sources */,
 				BD2A9D9625AEEAEC002D00D6 /* ContentView.swift in Sources */,
-				BD90BDA52639565700860C11 /* chuideg.swift in Sources */,
 				BD2A9D9425AEEAEC002D00D6 /* Flash_Card_Apple_LabApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
